@@ -34,3 +34,26 @@ nav > div > a {
         background-size: cover;
     }
 }
+
+/* QUIENES SOMOS  */
+
+#QuienesSomos p {
+    text-align: justify;
+}
+
+/* DESTACADOS */
+
+#Destacados p {
+    line-height: 1.25rem;
+}
+
+#Destacados h5 {
+    font-weight: normal;
+}
+
+#Destacados hr, #Contacto hr {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 95vw;
+
+}
