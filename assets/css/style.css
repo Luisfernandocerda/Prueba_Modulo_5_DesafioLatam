@@ -43,6 +43,8 @@ nav > div > a {
 
 #QuienesSomos p {
     text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 /* DESTACADOS */
@@ -60,4 +62,28 @@ nav > div > a {
     transform: translateX(-50%);
     width: 95vw;
 
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/* REDES SOCIALES */
+#Redes {
+
+    vertical-align: middle;
+/*     display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+#Redes header{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-justify: center;
 }
