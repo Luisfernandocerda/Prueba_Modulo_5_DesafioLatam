@@ -22,6 +22,17 @@ $(document).ready(function () {
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl);
     });
+
+    $("a").click(function(){
+        var gato = this.hash
+
+        $("html, body").animate(
+            {
+                scrollTop: $(gato).offset().top
+            },
+            2000
+        );
+    });
     /*     $('.navbar-nav>li>a').on('click', function(){
             $('.navbar-collapse').collapse('hide');
         }); */
